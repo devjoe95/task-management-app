@@ -1,0 +1,14 @@
+server:
+  port: 3000
+
+database:
+  type: 'postgres'
+  host: 'localhost'
+  port: 5432
+  username: 'postgres'
+  password: 'toor'
+  name: 'taskmanagement'
+
+jwt:
+  secret: '8Zz5tw0Ionm3XPZZfN0NOml3z9FMfmpgXwovR9fp6ryDIoGRM8EPHAB6iHsc0fb'
+  expiresIn: 3600
